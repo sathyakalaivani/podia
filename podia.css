@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+  margin:0;
+  padding:0;
+ 
+}
+.maincontainer{
+   height: 100%;
+   width:85vw;
+   margin-left:100px;
+   margin-right:100px; 
+}
+.header{
+  display:flex;
+  padding:30px;
+  background-color: white;
+  font-size: larger;
+  /* position: fixed; */
+  /* top:0; */
+  box-shadow: 20px;
+  
+}
+ body{
+  z-index: -1;
+ }
+
+.logo{
+  padding-right: 20px;
+}
+.list{
+  display:flex;
+}
+.list a{
+  text-decoration: none;
+  padding-right:15px;
+  color: black;
+}
+/* .list-item{ */
+  /* list-style-type: none; */
+  /* padding:6px; */
+
+.side{
+  display:flex;
+  padding-left:520px;
+}
+.side a{
+  text-decoration: none;
+  padding-right:15px;
+}
+.signup{
+  width:120px;
+  height:30px;
+  border: 2px solid rgb(16, 19, 202);
+  background-color: darkblue;
+  border-radius: 80px ;
+  text-align: center;
+  color: white;
+}
+.login{
+  color: black;
+}
+.bodycontainer{
+  text-align: center;
+  margin-top:100px;
+  font-size: 23px;
+}
+/*.bodycontainer h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;*/
+
+.button{
+  width:280px;
+  background-color: darkblue;
+  border-radius: 30px;
+  border-color: blue;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  font-size:large;
+  line-height: 40px;
+}
+#sub{
+  text-align:center;
+  line-height: 40px;
+  padding:20px;
+  margin-top:100px;
+  
+}
+#sub h4 p{
+  line-height: 60px;
+}
+.website{
+    position: relative; 
+    padding-top:100px;
+    padding-bottom: 150px;
+    /* border:2px solid grey;   */
+}
+.website h5{
+  color:rgb(102, 59, 2);
+  opacity:0.7;
+  line-height: 30px;
+  
+}
+.website h2{
+  font-size:30px;
+  line-height:35px;
+
+}
+.website p{
+  line-height: 25px;
+  font-size:larger;
+  opacity:0.8;
+}
+.wlist li{
+  line-height: 40px;
+  font-size: larger;
+}
+.button0{
+  width:130px;
+  height:40px;
+  font-size: large;
+  border:2px solid transparent;
+  border-radius:20px;
+  text-align:center;
+  background-color: rgb(216, 213, 213);
+  line-height: 60px;
+}
+.wimg{
+    position:absolute;
+    display:flex;
+    top:40px ;
+    padding-left: 610px;
+}
+.wlist{
+  list-style-type: none;
+}
+.email{
+  position: relative; 
+  padding-top:100px;
+  padding-bottom: 150px;
+  /* border: 2px solid grey;  */
+  
+}
+.email h5{
+  color:rgb(102, 59, 2);
+  opacity:0.7;
+  line-height: 30px;
+  
+}
+.email h2{
+  font-size:30px;
+  line-height:35px;
+
+}
+.email p{
+  line-height: 30px;
+  font-size:larger;
+  opacity:0.8;
+}
+.email li{
+  line-height: 40px;
+  font-size: larger;
+}
+.button1{
+  width:130px;
+  height:40px;
+  font-size: large;
+  top:10px;
+  border:2px solid transparent;
+  border-radius:20px;
+  /* text-align:center; */
+  background-color: rgb(216, 213, 213);
+  line-height: 60px;
+}
+
+.eimg{
+  position:absolute;
+  display:flex;
+  top:40px ;
+  padding-left: 610px;
+}
+.elist{
+  list-style-type: none;
+}
+.digital{
+  position: relative; 
+  padding-top:100px;
+  padding-bottom:150px;
+  /* border:2px solid grey; */
+}
+.digital h5{
+  color:rgb(102, 59, 2);
+  opacity:0.7;
+  line-height: 30px;
+  
+}
+.digital h2{
+  font-size:30px;
+  line-height:35px;
+
+}
+.digital p{
+  line-height: 25px;
+  font-size:larger;
+  opacity:0.8;
+}
+.dlist li{
+  line-height: 40px;
+  font-size: larger;
+}
+.button2{
+  width:130px;
+  height:40px;
+  font-size: large;
+  border:2px solid transparent;
+  border-radius:20px;
+  text-align:center;
+  background-color: rgb(216, 213, 213);
+  line-height: 60px;
+}
+.dimg{
+  position:absolute;
+  display:flex;
+  top:40px ;
+  padding-left: 610px;
+}
+.dlist{
+  list-style-type: none;
+}
+.blog{
+  position: relative; 
+  padding-top:100px;
+  padding-bottom:150px;
+  /* border:2px solid grey; */
+}
+.blog h5{
+  color:rgb(102, 59, 2);
+  opacity:0.7;
+  line-height: 30px;
+  
+}
+.blog h2{
+  font-size:30px;
+  line-height:35px;
+
+}
+.blog p{
+  line-height: 25px;
+  font-size:larger;
+  opacity:0.8;
+}
+.blist li{
+  line-height: 35px;
+  font-size: larger;
+}
+.button3{
+  width:130px;
+  height:40px;
+  font-size: large;
+  border:2px solid transparent;
+  border-radius:20px;
+  text-align:center; 
+  background-color: rgb(216, 213, 213);
+  line-height: 60px;
+}
+.bimg{
+  position:absolute;
+  display:flex;
+  top:40px;
+  padding-left: 610px;
+}
+.blist{
+  list-style-type: none;
+}
+section{
+  padding:20px;
+  margin: 10px;
+}
+section li{
+  text-decoration: none;
+}
